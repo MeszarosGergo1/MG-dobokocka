@@ -10,11 +10,41 @@ using System.Windows.Forms;
 
 namespace MG_dobokocka
 {
-    public partial class Form1 : Form
+    public partial class Főablak : Form
     {
-        public Form1()
+        public Főablak()
         {
             InitializeComponent();
+        }
+
+        private void fileSystemWatcher1_Changed(object sender, System.IO.FileSystemEventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
