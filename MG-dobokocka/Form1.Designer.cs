@@ -51,6 +51,7 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -146,6 +147,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.label16);
             this.groupBox3.Controls.Add(this.label18);
             this.groupBox3.Controls.Add(this.label17);
             this.groupBox3.Controls.Add(this.label15);
@@ -204,9 +206,9 @@
             this.pictureBox1.BackgroundImage = global::MG_dobokocka.Properties.Resources.dobokocka1;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(546, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(523, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(212, 145);
+            this.pictureBox1.Size = new System.Drawing.Size(235, 145);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
@@ -283,6 +285,15 @@
             this.label18.TabIndex = 11;
             this.label18.Text = "label18";
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(264, 103);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(73, 13);
+            this.label16.TabIndex = 12;
+            this.label16.Text = "Valaki győzött";
+            // 
             // Főablak
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -329,6 +340,7 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label16;
     }
 }
 
