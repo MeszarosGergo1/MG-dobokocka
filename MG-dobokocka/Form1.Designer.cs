@@ -77,7 +77,7 @@
             // 
             this.fileSystemWatcher1.EnableRaisingEvents = true;
             this.fileSystemWatcher1.SynchronizingObject = this;
-            this.fileSystemWatcher1.Changed += new System.IO.FileSystemEventHandler(this.fileSystemWatcher1_Changed);
+           
             // 
             // aladardobasai
             // 
@@ -88,7 +88,7 @@
             this.aladardobasai.Size = new System.Drawing.Size(134, 20);
             this.aladardobasai.TabIndex = 1;
             this.aladardobasai.Text = "Aladár dobásai:";
-            this.aladardobasai.Click += new System.EventHandler(this.label2_Click);
+         
             // 
             // groupBox1
             // 
@@ -147,7 +147,7 @@
             this.aladarnyero.Size = new System.Drawing.Size(74, 13);
             this.aladarnyero.TabIndex = 4;
             this.aladarnyero.Text = "nyerő szériája:";
-            this.aladarnyero.Click += new System.EventHandler(this.label6_Click);
+       
             // 
             // aladarhatosdobas
             // 
@@ -167,7 +167,7 @@
             this.aladargyozelmekszama.Size = new System.Drawing.Size(93, 13);
             this.aladargyozelmekszama.TabIndex = 2;
             this.aladargyozelmekszama.Text = "győzelmek száma:";
-            this.aladargyozelmekszama.Click += new System.EventHandler(this.label4_Click);
+           
             // 
             // groupBox2
             // 
@@ -209,7 +209,7 @@
             this.groupBox3.Size = new System.Drawing.Size(511, 130);
             this.groupBox3.TabIndex = 5;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
+         
             // 
             // bendeguzdobasai2
             // 
@@ -224,12 +224,12 @@
             this.kigyozott.AutoSize = true;
             this.kigyozott.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.kigyozott.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.kigyozott.Location = new System.Drawing.Point(288, 102);
+            this.kigyozott.Location = new System.Drawing.Point(251, 102);
             this.kigyozott.Name = "kigyozott";
             this.kigyozott.Size = new System.Drawing.Size(87, 13);
             this.kigyozott.TabIndex = 12;
             this.kigyozott.Text = "Valaki győzött";
-            this.kigyozott.Click += new System.EventHandler(this.kigyozott_Click);
+
             // 
             // bendeguznyeroszeria2
             // 
@@ -282,7 +282,7 @@
             this.bendeguzgyozelmekszama.Size = new System.Drawing.Size(93, 13);
             this.bendeguzgyozelmekszama.TabIndex = 2;
             this.bendeguzgyozelmekszama.Text = "győzelmek száma:";
-            this.bendeguzgyozelmekszama.Click += new System.EventHandler(this.label8_Click);
+           
             // 
             // bendegyozelmekszama
             // 
@@ -293,7 +293,7 @@
             this.bendegyozelmekszama.Size = new System.Drawing.Size(163, 20);
             this.bendegyozelmekszama.TabIndex = 1;
             this.bendegyozelmekszama.Text = "Bendegúz dobásai:";
-            this.bendegyozelmekszama.Click += new System.EventHandler(this.bendegyozelmekszama_Click);
+          
             // 
             // szamitas
             // 

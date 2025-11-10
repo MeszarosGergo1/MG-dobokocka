@@ -26,45 +26,7 @@ namespace MG_dobokocka
             InitializeComponent();
         }
 
-        private void fileSystemWatcher1_Changed(object sender, System.IO.FileSystemEventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bendegyozelmekszama_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox3_Enter(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void szamitas_Click(object sender, EventArgs e)
         {
@@ -179,26 +141,23 @@ namespace MG_dobokocka
             else
                 bendeguznyeroszeria2.Text = "nem volt";
 
-            if(bendeguzlista.Sum() > aladarlista.Sum())
+            if(bendeguzlista.Sum() == aladarlista.Sum())
             {
-                kigyozott.Text = $"Bendegúz győzött {bendeguzlista.Sum()}:{aladarlista.Sum()} ponntal.";
+                kigyozott.Text = $"Döntetlen lett az eredmény {aladarlista.Sum()}:{bendeguzlista.Sum()} ponttal.";
+                
             }
-            if(aladarlista.Sum() > bendeguzlista.Sum())
+            else if(aladarlista.Sum() > bendeguzlista.Sum())
             {
-                kigyozott.Text = $"Aladár győzött {aladarlista.Sum()}:{bendeguzlista.Sum()} ponntal.";
+                kigyozott.Text = $"Aladár győzött {aladarlista.Sum()}:{bendeguzlista.Sum()} ponttal.";
             }
             else
             {
-                kigyozott.Text = $"Döntetlen lett az eredmény {aladarlista.Sum()}:{bendeguzlista.Sum()} ponttal.";
+                kigyozott.Text = $"Bendegúz győzött {bendeguzlista.Sum()}:{aladarlista.Sum()} ponttal.";
             }
 
 
             timer1.Enabled = false;
         }
 
-        private void kigyozott_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
